@@ -21,7 +21,7 @@ import scipy
 from qiskit.aqua import aqua_globals
 
 
-def ad_hoc_data(training_size, test_size, n, gap, plot_data=False):
+def ad_hoc_data(training_size, test_size, n, gap, plot_data=False, random_seed=None):
     """ returns ad hoc dataset """
     class_labels = [r'A', r'B']
     count = 0
